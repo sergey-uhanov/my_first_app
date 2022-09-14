@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="../css/staly.css">
+	<link rel="stylesheet" href="./css/staly.css">
 </head>
 
 <body>
@@ -22,22 +22,8 @@
 
 		</div>
 	</div>
+	<script src="./js/main.js"></script>
 </body>
-<script src="../js/main.js">
-	var op;
-	function func() {
-		var result;
-		var num1 = Number(document.getElementById("num1").value);
-		var num2 = Number(document.getElementById("num2").value);
-		if (num1 == 0 || num2 == 0) {
-			result = `You can buy 0 BTC`
-		} else {
-			op = num2 / num1;
-			result = `You can buy ${op.toFixed(7)} BTC`
-		}
-		document.getElementById("result").innerHTML = result;
-	}
 
-</script>
 
 </html>
