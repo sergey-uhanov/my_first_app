@@ -2,7 +2,7 @@ body{
 	background-color: rgb(39, 52, 85);
 }
 .wrapper {
-width: 1200px;
+/*width: 1200px;*/
 }
 .container {	
 display: flex;
